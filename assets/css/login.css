@@ -1,0 +1,77 @@
+html,
+bady {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(../images/login_bg.jpg) no-repeat;
+}
+
+.login {
+    /* display: none; */
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginImg {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.layui-input-block {
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.layui-input-block i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input-block input {
+    font-size: 12px;
+    padding-left: 35px;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.layui-btn {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.login a,
+.reg a {
+    font-size: 12px;
+    color: skyblue;
+    float: right;
+    margin-right: 35px;
+}
+
+.login a:hover,
+.reg a:hover {
+    color: tomato;
+}
+
+
+/* 注册框 */
+
+.reg {
+    display: none;
+    width: 400px;
+    height: 360px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
